@@ -59,3 +59,18 @@ form button{
     cursor: pointer;
     display: none;
 }
+
+#search-result{
+    width: 80%;
+    margin: 100px auto 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
+
+#search-result img{
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+
+}
